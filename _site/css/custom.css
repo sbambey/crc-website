@@ -1,0 +1,59 @@
+.btn-standard {
+	background-color: #331832;
+	color: #FFF;
+}
+
+a.btn-standard:hover, a.btn-standard:active {
+	color: #FFF;
+}
+
+/* Custom page header */
+.header {
+	padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: .05rem solid #e5e5e5;
+  background-image: linear-gradient(120deg, #FDF0D5, #F0544F);
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+
+.header .nav-pills {
+	margin-right: 2rem;
+}
+
+.header .nav-pills .nav-item {
+	margin-right: 1rem;
+}
+
+.header .nav-pills .nav-link.active {
+	background-color: #331832;
+}
+
+.header .nav-pills a.nav-link {
+	color: #FFF;
+}
+
+.header-logo {
+	max-height:4rem;
+	padding-left: 2rem;
+}
+
+.nav {
+	padding-top: 1.0rem;
+}
+
+.page-header a:not(:first-child) {
+	margin-left: 2rem;
+}
+.page-header h2 {
+	margin-top: 2rem;
+}
+.logo {
+	max-width: 500px;
+	max-height:200px;
+}
