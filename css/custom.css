@@ -1,5 +1,5 @@
 .btn-standard {
-	background-color: #331832;
+	background-color: #aa0000;
 	color: #FFF;
 }
 
@@ -12,7 +12,7 @@ a.btn-standard:hover, a.btn-standard:active {
 	padding-top: 1rem;
   padding-bottom: 1rem;
   border-bottom: .05rem solid #e5e5e5;
-  background-image: linear-gradient(120deg, #FDF0D5, #F0544F);
+  background-color: #B8D8D8;
 }
 
 /* Make the masthead heading the same height as the navigation */
@@ -31,11 +31,12 @@ a.btn-standard:hover, a.btn-standard:active {
 }
 
 .header .nav-pills .nav-link.active {
-	background-color: #331832;
+	background-color: #aa0000;
+	color:#fff;
 }
 
 .header .nav-pills a.nav-link {
-	color: #FFF;
+	color: #000;
 }
 
 .header-logo {
