@@ -4,11 +4,61 @@ title: {{ site.name }}
 description: "Home"
 ---
 
-<div id="home">
-  <h1>News</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+<article>
+  <header>
+  	<img src="{{ "/" | prepend: site.baseurl }}images/bg.jpg" class="title-image">
+  </header>
+  <section>
+    <img src="{{ "/" | prepend: site.baseurl }}images/long_colour_dark.png" class="crc-logo"><br><br><br>
+    <h3>{{ site.tagline }}</h3>
+    <p>A small intro could go here... </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+  </section>
+  <hr>
+  <section id="box">
+      <h2>What's in the box?</h2>
+      <p>Great looking, configurable design. Fits well for companies and product blogs.
+      <div>
+          <h3>Jekyll based</h3>
+          <p>Jekyll is a blog-aware, static site generator. It's simple and you can host the static files anywhere.</p>
+      </div>
+      <div>
+          <h3>Markdown supported</h3>
+          <p>Use Markdown to create great looking posts with cover images, full author details, links and images.</p>
+      </div>
+      <div>
+          <h3>Designed for content</h3>
+          <p>Simple design and typography lets your readers focus on what's important.</p>
+      </div>
+      
+      <hr>
+      
+      <div>
+          <h3>SEO and sharing friendly</h3>
+          <p>Uses the right meta data to optimize your content for sharing and search engines.</p>
+      </div>
+      <div>
+          <h3>Lightweight</h3>
+          <p>Lightweight design and compressed and gzipped assets. ~90 Google Page Speed </p>
+      </div>
+      <div>
+          <h3>Code Syntax highlighting</h3>
+          <p>Write technical posts with code friendly syntax highlighting.</p>
+      </div>
+      <hr>
+      <div>
+          <h3>Easily Customizable</h3>
+          <p>Customize posts theme colors, posts, product information and more in the <a href="https://github.com/kippt/jekyll-incorporated/blob/master/_config.yml">config</a></p>
+      </div>
+      <div>
+          <h3>Responsive</h3>
+          <p>Looks great on your desktop, tablet and mobile.</p>
+      </div>
+      <div>
+          <h3>Deploy to Github Pages</h3>
+          <p>Host blog on Github for free and publish the site with a single command.</p>
+      </div>
+      <hr>
+  </section>
+</article>

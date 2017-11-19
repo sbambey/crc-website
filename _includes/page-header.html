@@ -1,34 +1,9 @@
-{% if page.description == "Home" %}
-<section class="page-header">
-  <!--<h1 class="project-name">--><img src="{{ "/" | prepend: site.baseurl }}images/long_colour_dark.png" class="logo"><!--</h1>-->
-  <h2 class="project-tagline">{{ site.tagline }}</h2>
-  <a class="btn btn-standard" href="{{ "/" | prepend: site.baseurl }}about" role="button">About</a>
-  <a class="btn btn-standard" href="{{ "/" | prepend: site.baseurl }}contact" role="button">Contact</a>
-  <!--<a href="#" class="btn">Button 1</a>
-  <a href="#" class="btn">Button 2</a>
-  <a href="#" class="btn">Button 3</a>-->
-</section>
-{% else %}
-<header class="header clearfix">
-  <nav>
-    <ul class="nav nav-pills float-right">
-      <li class="nav-item">
-        <a class="nav-link" href="{{ "/" | prepend: site.baseurl }}">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link{% if page.description == 'About' %} active{% endif %}" href="{{ "/" | prepend: site.baseurl }}about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link{% if page.description == 'Contact' %} active{% endif %}" href="{{ "/" | prepend: site.baseurl }}contact">Contact</a>
-      </li>
-      <!--<li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>-->
-    </ul>
-  </nav>
-  <a href="{{ "/" | prepend: site.baseurl }}"><img src="{{ "/" | prepend: site.baseurl }}images/short_colour_dark.png" class="header-logo"></a>
-</header>
-{% endif %}
+<div class="nav-bar">
+  <ul>
+    <li><img src="{{ "/" | prepend: site.baseurl }}images/short_colour_dark.png" class="nav-bar-logo"></li>
+    <li><a href="#home" class="active">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#media">Media</a></li>
+    <li class="highlight"><a href="#contact">Contact</a></li>
+  </ul>
+</div>

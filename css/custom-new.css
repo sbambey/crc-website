@@ -1,0 +1,57 @@
+.crc-logo {
+	max-width: 500px;
+	max-height: 200px;
+}
+
+.nav-bar {
+	color: #000;
+	border-bottom: 1px solid #aa0000;
+	font-size: 18px;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-bar li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-bar li a:hover:not(.active) {
+    background-color: #aaaaaa;
+    color:#fff;
+}
+
+.nav-bar .active {
+    background-color: #aa0000;
+    color: #fff;
+}
+
+.nav-bar-logo {
+	height: 40px;
+	margin: 5px 20px 0 20px;
+}
+
+.nav-bar ul li.highlight {
+	float:right;
+}
+
+img.title-image {
+	display: block;
+  max-width:2048px;
+  max-height:1365px;
+  width: 100%;
+  height: auto;
+}

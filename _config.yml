@@ -1,13 +1,13 @@
 # Setup
 title:        CRC
 tagline:      The official body representing Canadian Student Rocketry Teams
-baseurl:      "/crc-website"
+baseurl:      ""
 paginate:     1
 
 # About/contact
 author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+  name:       Simon Bambey
+  url:        
 
 # Gems
 plugins:
