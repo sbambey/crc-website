@@ -1,6 +1,14 @@
 .crc-logo {
+  max-width: 500px;
+  max-height: 200px;
+  margin-bottom: 50px;
+}
+
+.crc-logo-alternate {
 	max-width: 500px;
 	max-height: 200px;
+	padding: 20px 50px;
+	background: rgba(255,255,255,0.8);
 }
 
 .nav-bar {
@@ -51,7 +59,7 @@
 img.title-image {
 	display: block;
   max-width:2048px;
-  max-height:1365px;
+  max-height:800px;
   width: 100%;
   height: auto;
 }

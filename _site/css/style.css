@@ -15,11 +15,23 @@ a:hover {
 }
 
 header {
+    background:url(../images/bg.jpg) center center #111;
     text-align:center;
     color:#fff;
     position:relative;
     /*padding:5em 5% 10em;*/
     background-size:cover;
+    padding:16em;
+}
+
+header.alternate-header {
+    background:url(../images/bg.jpg) center center #111;
+    text-align:center;
+    color:#fff;
+    position:relative;
+    /*padding:5em 5% 10em;*/
+    background-size:cover;
+    padding:8em;
 }
 
 header h1 {
